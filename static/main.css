@@ -1,0 +1,46 @@
+body{
+    font-size: 1.3em;
+
+    max-width: 960px;
+    margin: 0 auto;
+
+    text-align: center;
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+a{
+    text-decoration: none;
+}
+
+.vara{
+    margin: 3px;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.karfaGrid{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding-bottom: 20px;
+}
+.karfaGrid ol{
+    padding: 0;
+    margin: 0;
+}
+.karfaGrid ol ul{
+    border: 1px solid black;
+}
+
+.karfaGrid ol:first-child{
+    text-align: left;
+}
+.karfaGrid ol:nth-child(2){
+    text-align: left;
+}
+
+.karfaGrid ol ul:nth-child(odd){
+    background-color: lightgray;
+}

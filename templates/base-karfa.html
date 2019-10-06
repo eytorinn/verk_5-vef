@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="is">
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %} {% endblock %} </title>
+        <link rel="stylesheet" type=text/css href="{{ url_for('static',filename= "still.css") }}">
+        {% block refresh %} {% endblock %}
+    </head>
+    <body>
+        <header>
+            {% include "teljari.tpl" %}
+        </header>
+        <main>
+         {% block content %}
+
+         {% endblock %}
+        </main>
+        <footer>
+            {% include "fotur.tpl" %}
+        </footer>
+    </body>
+</html>

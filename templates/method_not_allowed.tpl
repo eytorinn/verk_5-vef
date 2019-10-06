@@ -1,0 +1,1 @@
+<h1>ÞETTA ER BANNAÐ</h1>

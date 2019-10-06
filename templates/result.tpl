@@ -1,0 +1,16 @@
+<form method="post" action="result" accept-charset="utf-8">
+    <fieldset class="form">
+        <legend>Panta vöru</legend>
+        <label>Nafn:<br>
+            <input type="text" name="Nafn" required placeholder="Name">
+        </label>
+        <label>Netfang:<br>
+            <input type="email" name="email" required placeholder="Email">
+        </label>
+        <label>Símanúmer:<br>
+            <input type="text" name="simi" required pattern="^(\354)?\d{3}[ -]?\d{4}$" placeholder="1111111">
+        </label>
+        <input type="hidden" name="samtals"value="{{ total }}"><br>
+        <input type="submit" value="Panta vörur" id="button">
+    </fieldset>
+</form>
